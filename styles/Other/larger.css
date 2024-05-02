@@ -1,0 +1,94 @@
+@media screen and (min-width: 700px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+    body {
+        background-color: #bbb;
+        font-size: 16px;
+        font-family: "Sansita", sans-serif;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column; /* Items will stack vertically */
+        align-items: center;
+        border: 1px solid #ccc; /* Just for visualization */
+        background-color: black;
+        /* display: block;
+        grid-template-columns: 1fr; */
+        /* align-items: center;
+        justify-content: center; */
+        /* padding: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.1); */
+        color: #fff;
+    }
+    
+    
+    main {
+        padding: 20px;
+        background-color: #bbb;
+        max-width: 100%;
+        margin: 0 auto;	
+    }
+    
+    h1 {
+        font-size: 2rem;
+        
+    }
+    
+    nav {
+        display: grid;
+        background-color: #800080;
+        margin: 0 auto;
+        max-width: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    
+    nav a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        border: 1px solid #fff;
+    }
+    
+    img {
+        max-width:100px;
+        height:auto;
+    }
+    .wireframe {
+        display: block;
+        max-width:10000px;
+        height:auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card{
+        padding-top: 25px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 25px;
+    }
+    footer{
+        background-color: black;
+        color: #fff;
+        position: relative;
+	    bottom: 0;
+	    width: 100%;
+    }
+    .footer-content {
+        justify-content: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+        padding: 20px;
+    }
+    
+}
