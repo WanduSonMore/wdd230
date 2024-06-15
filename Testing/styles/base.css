@@ -1,0 +1,31 @@
+/* Example CSS for visual hierarchy section */
+
+/* Section header */
+#visual-hierarchy h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Individual principle card */
+.principle-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Screenshot */
+.screenshot {
+    /* Add styles for screenshot container */
+}
+
+/* Link styles */
+.principle-card a {
+    color: #007bff; /* Example link color */
+    text-decoration: none;
+}
+
+.principle-card a:hover {
+    text-decoration: underline;
+}

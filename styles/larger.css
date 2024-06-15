@@ -1,0 +1,25 @@
+@media screen and (min-width:800px){
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul.open{
+        flex-direction: row;
+    }
+    
+    #cards{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #menu-button{
+        display: none;
+    }
+
+    .map{
+        grid-column: 1/3;        
+    }
+}
