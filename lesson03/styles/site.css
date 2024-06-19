@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Ubuntu&display=swap");
+
+:root{
+  --header-bg-color: #124559;
+  --menu-bg-color: #598392;
+  --menu-highlight-color: #AEC3B0;
+  --body-bg-color: #EFF6E0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+}
+
+header,
+footer,
+main {
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+header,
+footer {
+  background-color: var(--header-bg-color);
+  text-align: center;
+  border: 1px solid black;
+  padding: 1rem;
+  color: white;
+}
+
+#siteheader{
+  background-color: var(--header-bg-color);
+  color: white;
+}
+
+#navbar-active{
+  background-color: var(--menu-highlight-color);
+}
+
+nav {
+  background-color: var(--menu-bg-color);
+  max-width: 832px; 
+  min-width: 480px;
+  margin: 0 auto;
+  border: 1px solid black;  
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-inline-start: 0px;
+  margin-block: 0px;
+  width: 100%;  
+  background-color: var(--menu-bg-color);
+  color: white;
+}
+
+nav ul li {
+  border: 1px solid black;
+  width: 100%;
+  color: white;
+  text-align: center;
+  
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;    
+  color: white;
+  font-size: 1.25rem;
+}
+
+nav ul li a:hover{
+  background-color: var(--menu-highlight-color);
+  color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+/* Hamburger menu stuff */
+
+#navbar{
+  display: none;
+}
+
+#navbar.active {
+  display: flex;
+}
+
+#menu-open{
+  display: block;
+}
+
+#menu-open.active{
+  display: none;
+}
+
+#menu-close{
+  display: none;
+}
+
+#menu-close.active{
+  display: block;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+td{
+  border: 1px solid black;  
+  padding: 1rem;
+}
+
+img{
+  border: 2px solid black;
+}
+
+nav ul li.active a{
+  background-color: var(--menu-highlight-color);
+}
+
+.active a{  
+  color: black;
+}
+
+.active{
+  background-color: var(--menu-highlight-color);
+}
+
+/* Media Query Updates for middle widths */
+
+@media screen and (min-width: 800px) {
+  nav ul {
+    flex-direction: row;
+  }
+
+  nav a {
+    padding: .5rem;
+    font-size: 1rem;
+  }
+
+  #menu-button{
+    display: none;
+  }
+
+  #navbar{
+    display: flex;
+  }
+
+}  

@@ -1,0 +1,73 @@
+{
+  "wardInformation": [
+      {
+          "familyName": "Smith",
+          "moveInDate": "2023-04-12",
+          "numberOfPeople": 4,
+          "visitedByBishopric": true,
+          "members": [
+              {
+                  "name": "John Smith",
+                  "gender": "Male",
+                  "birthdate": "1980-05-15"
+              },
+              {
+                  "name": "Jane Smith",
+                  "gender": "Female",
+                  "birthdate": "1982-07-20"
+              },
+              {
+                  "name": "Emily Smith",
+                  "gender": "Female",
+                  "birthdate": "2005-09-10"
+              },
+              {
+                  "name": "Michael Smith",
+                  "gender": "Male",
+                  "birthdate": "2008-11-25"
+              }
+          ]
+      },
+      {
+          "familyName": "Johnson",
+          "moveInDate": "2022-08-30",
+          "numberOfPeople": 3,
+          "visitedByBishopric": false,
+          "members": [
+              {
+                  "name": "Robert Johnson",
+                  "gender": "Male",
+                  "birthdate": "1975-03-22"
+              },
+              {
+                  "name": "Linda Johnson",
+                  "gender": "Female",
+                  "birthdate": "1978-06-17"
+              },
+              {
+                  "name": "Chris Johnson",
+                  "gender": "Male",
+                  "birthdate": "2010-01-05"
+              }
+          ]
+      },
+      {
+          "familyName": "Williams",
+          "moveInDate": "2021-11-05",
+          "numberOfPeople": 2,
+          "visitedByBishopric": true,
+          "members": [
+              {
+                  "name": "David Williams",
+                  "gender": "Male",
+                  "birthdate": "1985-12-11"
+              },
+              {
+                  "name": "Sarah Williams",
+                  "gender": "Female",
+                  "birthdate": "1988-04-09"
+              }
+          ]
+      }
+  ]
+}
