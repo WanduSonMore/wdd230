@@ -1,0 +1,129 @@
+/* Larger Screens Styles */
+
+/* Reset and Typography */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333;
+    color: #333; /* Default text color for body */
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    color: white; /* Set h1 color to white */
+    padding: 0.5em; /* Add padding around h1 */
+}
+
+h2 {
+    color: #006400; /* Set h2 color to darker green */
+}
+
+h3 {
+    color: #32CD32; /* Set h3 text color to lime green */
+    background-color: #666; /* Set background around h3 to dark grey */
+    padding: 0.5em; /* Add padding around h3 */
+    border-radius: 8px; /* Add border radius for rounded corners */
+}
+
+/* Links */
+a {
+    color: #006400; /* Set link color to darker green */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation */
+nav ul li a {
+    color: #32CD32; /* Set navigation link color to lime green */
+}
+
+/* Paragraphs */
+p {
+    color: #32CD32; /* Set paragraph text color to lime green */
+}
+
+/* Layout */
+header {
+    background-color: #006400; /* Set header background to darker green */
+    color: black; /* Header text color */
+    padding: 1em 0;
+    text-align: center;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: auto; /* Auto height for flexibility on smaller screens */
+}
+
+.header-content {
+    display: flex; /* Use flexbox for header content */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    gap: 0.5em; /* Spacing between image and h1 */
+    padding: 0.5em; /* Add padding around header content */
+}
+
+.header-content img {
+    max-width: 100px; /* Adjust max-width of logo as needed */
+}
+
+h1,
+h3 {
+    margin: 0; /* Remove margin from h1 and h3 */
+}
+
+nav {
+    text-align: center;
+    margin-top: 1em; /* Add margin to separate header and navigation */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+main {
+    padding: 2em;
+    background: #444; /* Set main background to dark grey */
+    margin: 2em auto;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.spotlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.spotlights article {
+    flex: 1 1 calc(50% - 1em);
+    background: #666; /* Set spotlight background to darker grey */
+    padding: 1em;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #006400; /* Set footer background to darker green */
+    color: black; /* Footer text color */
+}

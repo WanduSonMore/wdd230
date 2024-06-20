@@ -1,0 +1,45 @@
+/* medium.css */
+
+/* Header Content */
+.header-content {
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.header-content img {
+    max-width: 100px; /* Adjust max-width of logo as needed */
+    margin-bottom: 0.5em; /* Add space between logo and h1 */
+}
+/* Navigation */
+nav ul {
+    display: block; /* Ensure navigation is displayed as block on smaller screens */
+    text-align: center; /* Center align navigation links */
+    margin-top: 1em; /* Add margin to separate header and navigation */
+}
+
+nav ul li {
+    display: block; /* Display list items as block for vertical stacking */
+    margin: 10px 0; /* Add margin between navigation items */
+}
+
+nav ul li a {
+    color: #32CD32; /* Set navigation link color to lime green */
+}
+
+/* Image Banner */
+.image-banner {
+    text-align: center; /* Center align the image */
+    margin-top: 1em; /* Add margin to separate from navigation */
+}
+
+.image-banner img {
+    max-width: 100%; /* Ensure the image scales to fit its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Spotlights Articles */
+.spotlights article {
+    flex: 1 1 100%; /* Ensure each article takes full width on medium screens */
+    margin-bottom: 1em; /* Add margin between articles */
+}
