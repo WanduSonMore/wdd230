@@ -1,0 +1,13 @@
+{
+    "members" : [
+        {
+            "names": "Member 1",
+            "addresses1": "123 Main Street",
+            "addresses2": "Tent, ID 83451",
+            "phone": "000-000-0000",
+            "websiteURL": "https://qrbriggs-byui.github.io/wdd230/",
+            "imageURL":"./images/directory/1.jpg",
+            "membership":"gold"
+        }
+    ]
+}

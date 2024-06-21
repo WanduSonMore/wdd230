@@ -1,15 +1,20 @@
+/* Adjusted CSS with h1 color change to lime green */
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Ubuntu&display=swap");
 
-:root{
-  --header-bg-color: #124559;
-  --menu-bg-color: #598392;
-  --menu-highlight-color: #AEC3B0;
-  --body-bg-color: #EFF6E0;
+:root {
+  --header-bg-color: #006400;
+  --menu-bg-color: #808080;
+  --menu-highlight-color: #32CD32;
+  --body-bg-color: #333;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   min-height: 100vh;
+  background-color: var(--body-bg-color);
+  color: var(--menu-bg-color);
+  margin: 0;
+  padding: 0;
 }
 
 header,
@@ -19,6 +24,7 @@ main {
   min-width: 480px;
   margin: 0 auto;
 }
+
 header,
 footer {
   background-color: var(--header-bg-color);
@@ -28,128 +34,92 @@ footer {
   color: white;
 }
 
-#siteheader{
-  background-color: var(--header-bg-color);
-  color: white;
-}
-
-#navbar-active{
-  background-color: var(--menu-highlight-color);
+main {
+  padding: 1rem;
 }
 
 nav {
   background-color: var(--menu-bg-color);
-  max-width: 832px; 
+  max-width: 832px;
   min-width: 480px;
   margin: 0 auto;
-  border: 1px solid black;  
+  border: 1px solid black;
 }
 
 nav ul {
   display: flex;
   flex-direction: column;
   list-style: none;
-  padding-inline-start: 0px;
-  margin-block: 0px;
-  width: 100%;  
+  padding-inline-start: 0;
+  margin-block: 0;
+  width: 100%;
   background-color: var(--menu-bg-color);
   color: white;
 }
 
 nav ul li {
   border: 1px solid black;
-  width: 100%;
   color: white;
   text-align: center;
-  
 }
 
 nav a {
   display: block;
   padding: 1rem;
-  text-decoration: none;    
-  color: white;
+  text-decoration: none;
+  color: var(--menu-highlight-color);
   font-size: 1.25rem;
 }
 
-nav ul li a:hover{
+nav a:hover {
   background-color: var(--menu-highlight-color);
   color: black;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+  color: var(--menu-highlight-color); /* Lime Green (#32CD32) for h1 */
+  font-family: "Ubuntu", sans-serif; /* Using Ubuntu font for h1 */
 }
 
-/* Hamburger menu stuff */
-
-#navbar{
-  display: none;
-}
-
-#navbar.active {
-  display: flex;
-}
-
-#menu-open{
-  display: block;
-}
-
-#menu-open.active{
-  display: none;
-}
-
-#menu-close{
-  display: none;
-}
-
-#menu-close.active{
-  display: block;
-}
-
-table{
-  border-collapse: collapse;
-}
-
-td{
-  border: 1px solid black;  
-  padding: 1rem;
-}
-
-img{
-  border: 2px solid black;
-}
-
-nav ul li.active a{
-  background-color: var(--menu-highlight-color);
-}
-
-.active a{  
-  color: black;
-}
-
-.active{
-  background-color: var(--menu-highlight-color);
+h2,
+h3 {
+  color: var(--menu-highlight-color);
 }
 
 /* Media Query Updates for middle widths */
-
 @media screen and (min-width: 800px) {
   nav ul {
     flex-direction: row;
   }
 
   nav a {
-    padding: .5rem;
+    padding: 0.5rem;
     font-size: 1rem;
   }
+}
 
-  #menu-button{
-    display: none;
-  }
+table {
+  border-collapse: collapse;
+}
 
-  #navbar{
-    display: flex;
-  }
+td {
+  border: 1px solid black;
+  padding: 1rem;
+}
 
-}  
+img {
+  border: 2px solid black;
+  display: block;
+  margin: 0 auto;
+}
+
+nav ul li.active a,
+.active a {
+  background-color: var(--menu-highlight-color);
+  color: black;
+}
+
+.active {
+  background-color: var(--menu-highlight-color);
+}
