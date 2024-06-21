@@ -1,0 +1,86 @@
+/* normalize.css based on base.css */
+
+/* Box sizing
+   ========================================================================== */
+   html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Body
+     ========================================================================== */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif; /* Adjust as per your design */
+    background-color: var(--body-color); /* Ensure body background color consistency */
+    color: var(--text-color); /* Ensure text color consistency */
+  }
+  
+  /* Headers and Footers
+     ========================================================================== */
+  header,
+  footer {
+    margin: 0;
+    padding: 1rem; /* Ensure consistent padding for headers and footers */
+    background-color: var(--header-color); /* Ensure header background color consistency */
+    color: var(--text-color); /* Ensure header and footer text color consistency */
+  }
+  
+  /* Links
+     ========================================================================== */
+  a {
+    color: inherit;
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Lists
+     ========================================================================== */
+  ul, ol {
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Remove default list styles */
+  }
+  
+  /* Images
+     ========================================================================== */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Ensure images have consistent border radius */
+  }
+  
+  /* Tables
+     ========================================================================== */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    padding: 0.75rem; /* Ensure consistent padding for table cells */
+    border: 1px solid var(--header-color); /* Ensure consistent table cell border */
+  }
+  
+  /* Miscellaneous
+     ========================================================================== */
+  hr {
+    height: 3px; /* Ensure consistent horizontal rule height */
+    border: none;
+    background-color: var(--nav-color); /* Ensure consistent horizontal rule color */
+  }
+  
+  /* Responsive Design Adjustments (if needed)
+     ========================================================================== */
+  @media screen and (min-width: 800px) {
+    /* Example: Adjustments for larger screens */
+  }

@@ -92,9 +92,9 @@ main{
 
 footer{
     padding: 1rem;
-    background-color: var(--header-color);
+    background-color: var(--header-color); /* Background color unchanged */
     text-align: center;
-    color: #ECFEE8;
+    color: black; /* Text color changed to black */
 }
 
 #content main h2{
