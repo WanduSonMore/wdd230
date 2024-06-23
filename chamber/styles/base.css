@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    color: #006400; /* Set h2 color to darker green */
+    color: #32CD32; /* Set h2 color to lime green */
 }
 
 h3 {
@@ -121,17 +121,66 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.events,
+.weather,
 .spotlights {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2em;
+    margin-bottom: 2em; /* Add margin between sections */
 }
 
-.spotlights section {
+.event-cards {
+    display: flex;
+    gap: 2em;
+    justify-content: center; /* Center align content */
+}
+
+.event-card {
     flex: 1 1 calc(50% - 1em);
-    background: #666; /* Set spotlight background to darker grey */
+    background: #666;
     padding: 1em;
     border-radius: 8px;
+    text-align: center; /* Center align text */
+}
+
+.event-card img {
+    width: 200px; /* Set width to 200px for all images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images are centered properly */
+    margin: 0 auto; /* Center images horizontally */
+}
+
+.weather-card {
+    text-align: center;
+    background-color: #666;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.spotlight {
+    background: #666;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: center; /* Center align text */
+}
+
+.spotlight img {
+    width: 200px; /* Set width to 200px for all images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images are centered properly */
+    margin: 0 auto; /* Center images horizontally */
+}
+
+.spotlight h3,
+.spotlight p {
+    text-align: center; /* Center align text */
+}
+
+.spotlight2,
+.spotlight3 {
+    background: #666;
+    padding: 1em;
+    border-radius: 8px;
+    margin-top: 1em; /* Add margin between spotlights */
+    text-align: center; /* Center align text */
 }
 
 /* Footer */
