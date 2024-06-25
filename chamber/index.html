@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/medium.css" media="screen and (max-width: 1023px)">
     <link rel="icon" href="favicon.ico">
     <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
 </head>
 <body>
     <header>
@@ -26,7 +27,6 @@
         </nav>
         <!-- Image Banner Section -->
         <section class="image-banner">
-
             <img src="images/bos_banner.jpg" alt="Banner Image">
         </section>
     </header>
@@ -52,13 +52,14 @@
             <div class="weather-card">
                 <img src="path/to/weather_image.jpg" alt="Weather Image">
                 <p>Current weather conditions.</p>
-                <p>Temperature: 25°C</p>
+                <p>Temperature: <span id="temperature">45</span> °F</p>
                 <p>Humidity: 60%</p>
-                <p>Wind: 10 km/h</p>
+                <p>Wind: <span id="wind-speed">10</span> mph</p>
+                <p>Wind Chill: <span id="wind-chill">N/A</span></p>
             </div>
         </section>
         <section class="spotlights">
-            <h2></h2>
+            <h2>Spotlights</h2>
             <section class="spotlight">
                 <h3>Power Armor Maintenance</h3>
                 <img src="images/power_armor_training.jpg" alt="Power Armor Maintenance">
