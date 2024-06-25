@@ -123,3 +123,19 @@ nav ul li.active a,
 .active {
   background-color: var(--menu-highlight-color);
 }
+
+.color-swatch1{
+  padding: 5px;
+  background-color: var(--header-bg-color);
+  color: white;
+}
+.color-swatch2 {
+  border: 2px solid white;
+  padding: 5px;
+  color: #32CD32;
+}
+.color-swatch3 {
+  padding: 5px;
+  background-color: var(--menu-highlight-color);
+  color: black;
+}
