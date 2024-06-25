@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce discover page for WDD 230 Spring semester">
+    <meta name="author" content="Andrew Morris"> 
+    <title>Brotherhood of Steel Chamber of Commerce - Discover Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css" media="screen and (max-width: 1023px)">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/lastVisit.js" defer></script>
+    <script src="scripts/lazyLoad.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/bos_logo-removebg-preview.png" alt="Brotherhood of Steel Logo">
+            <h1>Brotherhood of Steel Chamber of Commerce</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="grid-container">
+        <aside class="sidebar">
+            <p><span id="visitMessage"></span></p>
+            <h2>Demographics</h2>
+            <p>Population: 2,000,000</p>
+            <p>Median Age: 35</p>
+            <p>Major Industries: Technology, Manufacturing</p>
+            <h2>Statistics</h2>
+            <p>Unemployment Rate: 4.2%</p>
+            <p>Median Household Income: $75,000</p>
+        </aside>
+        <section class="content">
+            <h2>Local Photos of Interest</h2>
+            <div class="gallery">
+                <figure>
+                    <img data-src="images/photo1.jpg" alt="Photo 1" class="lazy">
+                    <figcaption>Photo 1 Caption</figcaption>
+                </figure>
+                <figure>
+                    <img data-src="images/photo2.jpg" alt="Photo 2" class="lazy">
+                    <figcaption>Photo 2 Caption</figcaption>
+                </figure>
+                <figure>
+                    <img data-src="images/photo3.jpg" alt="Photo 3" class="lazy">
+                    <figcaption>Photo 3 Caption</figcaption>
+                </figure>
+                <figure>
+                    <img data-src="images/photo4.jpg" alt="Photo 4" class="lazy">
+                    <figcaption>Photo 4 Caption</figcaption>
+                </figure>
+                <figure>
+                    <img data-src="images/photo5.jpg" alt="Photo 5" class="lazy">
+                    <figcaption>Photo 5 Caption</figcaption>
+                </figure>
+                <figure>
+                    <img data-src="images/photo6.jpg" alt="Photo 6" class="lazy">
+                    <figcaption>Photo 6 Caption</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="base-footer">
+            <p>&copy;<span id="currentYear"></span> Andrew Morris</p>
+            <p>WDD 230 Project</p>
+            <p><span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
