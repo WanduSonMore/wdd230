@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --text-color: #331E36;
+    --body-color: #ECFEE8;
+    --card-color: #C2EFEB;
+    --header-color: #6EA4BF;
+    --nav-color: #41337A;
+}
+
+body{    
+    background-color: var(--body-color);
+    color: var(--text-color);
+    font-family: "Open Sans", sans-serif;
+}
+
+#content{
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: var(--card-color);
+}
+
+#topheader{
+    display: flex;
+    text-align: center;    
+    background-color: var(--header-color);
+    border-radius: 10px;
+}
+#menu-button{    
+    background-color: inherit;  
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+#menu-button::before{
+    content: "≡";
+}
+
+#menu-button.open::before{
+    content: "X";
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: var(--nav-color);
+    padding-inline-start: 0px;
+    display: none;
+}
+
+nav ul.open{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav ul li{
+    padding: 1rem;
+    width: 100%;
+}
+
+nav ul li:hover{
+    color: black;    
+    background-color: var(--header-color);
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #ECFEE8;    
+}
+
+#topheader h1{
+    width: 600px;
+    margin: 50px 0px;
+}
+
+#topheader img{
+    height: 150px;
+    /* width: 300px; */
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+header{
+    padding: 1rem;
+}
+
+main{
+    padding: 1rem;
+}
+
+footer{
+    padding: 1rem;
+    background-color: var(--header-color); /* Background color unchanged */
+    text-align: center;
+    color: black; /* Text color changed to black */
+}
+
+#content main h2{
+    text-align: center;
+}
+
+#learning-activities {
+    list-style: none;
+}
+
+.card{
+    border: 1px var(--header-color) solid;
+    margin: 1rem;    
+}
+
+.card h3{
+    background-color: var(--nav-color);
+    color: #ECFEE8;
+    margin: 0;
+    padding: 1rem;
+}
+
+.card p{
+    padding: 1rem;
+}
+
+#content main hr{
+    height: 3px;
+}
+
+.map iframe{
+    width: 100%;
+}
+
+#learning-activities li a:link{
+    color: #331E36;
+}
+
+#learning-activities li a:visited{
+    color: gray;
+}
+
+#learning-activities li a:hover{
+    color: lightgray;
+}
+
+/* #menu-button {
+    display: none;
+} */
