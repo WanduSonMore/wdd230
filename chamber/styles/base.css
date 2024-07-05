@@ -28,9 +28,10 @@ h2 {
 
 h3 {
     color: #32CD32; /* Set h3 text color to lime green */
-    background-color: #666; /* Set background around h3 to dark grey */
-    padding: 0.5em; /* Add padding around h3 */
-    border-radius: 8px; /* Add border radius for rounded corners */
+    /*  */
+    /*background-color: #666;  Set background around h3 to dark grey */
+    /* padding: 0.5em; Add padding around h3 */
+   /* border-radius: 8px;  Add border radius for rounded corners */
 }
 
 /* Links */
@@ -326,3 +327,40 @@ figure {
     margin-bottom: 10px;
 }
 
+
+.myinput {
+    display: block;
+    color: #32CD32;
+}
+
+.myinput input{
+    display: block;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem;
+}
+
+.myradio {
+    display: block;
+    color: #32CD32;
+}
+
+.myradio input{
+    margin-right: 1rem;
+}
+
+.myinput textarea {
+    display: block;
+}
+
+.mysubmit {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    color: #32CD32;
+    background: #666;
+}
+
+.join-main section{
+    border: #ddd 2px solid;
+    padding: 1rem;
+    margin: 2rem;
+}
