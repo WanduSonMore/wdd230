@@ -252,3 +252,76 @@ figure {
         grid-template-columns: 1fr;
     }
 }
+
+/* Add border around figures */
+.gallery figure {
+    border: 2px solid black; /* Black border */
+    padding: 10px; /* Add padding around each figure */
+    border-radius: 8px; /* Rounded corners for the border */
+}
+
+/* Adjust figure size and text alignment */
+.gallery figure img {
+    width: 400px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the images */
+}
+
+.gallery figure {
+    text-align: center; /* Center the caption text */
+}
+
+/* Directory Styling */
+.directory-main {
+    padding: 2em;
+    background: #444; /* Set main background to dark grey */
+    margin: 2em auto;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#directory-selector {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+#directory-selector button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #006400; /* Darker green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#directory-selector .active {
+    background-color: #32CD32; /* Active button color */
+}
+
+.directory-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.directory-list {
+    display: block;
+}
+
+.directory-cards section, .directory-list section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    background-color: #666;
+    border-radius: 8px;
+    color: white; /* Ensure text is readable */
+}
+
+.directory-list section {
+    width: 100%;
+    margin-bottom: 10px;
+}

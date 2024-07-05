@@ -1,13 +1,33 @@
 {
-    "members" : [
-        {
-            "names": "Member 1",
-            "addresses1": "123 Main Street",
-            "addresses2": "Tent, ID 83451",
-            "phone": "000-000-0000",
-            "websiteURL": "https://qrbriggs-byui.github.io/wdd230/",
-            "imageURL":"./images/directory/1.jpg",
-            "membership":"gold"
-        }
+    "members": [
+      {
+        "name": "Hidden Valley Bunker",
+        "streetAddress": "Hidden Valley",
+        "cityStateZip": "New Vegas, NV 83451",
+        "imageURL": "images/hidden_valley_bunker.jpg",
+        "websiteURL": "https://example.com/hidden_valley_bunker"
+      },
+      {
+        "name": "Scorpion Gulch",
+        "streetAddress": "Scorpion Gulch",
+        "cityStateZip": "New Vegas, NV 83451",
+        "imageURL": "images/scorpion_gulch.jpg",
+        "websiteURL": "https://example.com/scorpion_gulch"
+      },
+      {
+        "name": "Sloan",
+        "streetAddress": "Sloan",
+        "cityStateZip": "New Vegas, NV 83451",
+        "imageURL": "images/sloan.jpg",
+        "websiteURL": "https://example.com/sloan"
+      },
+      {
+        "name": "Douglas the Mole Rat",
+        "streetAddress": "Sloan",
+        "cityStateZip": "New Vegas, NV 83451",
+        "imageURL": "images/douglas_the_mole_rat.jpg",
+        "websiteURL": "https://example.com/douglas_the_mole_rat"
+      }
     ]
-}
+  }
+  

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the Brotherhood of Steel Chamber of Commerce">
+    <meta name="author" content="Your Name">
+    <title>Join the Brotherhood of Steel Chamber</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/header-footer.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/bos_logo-removebg-preview.png" alt="BOS Logo">
+            <h1>Brotherhood of Steel Chamber of Commerce</h1>
+        </div>
+        <button id="menu-button"></button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" class="current">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="join-main">
+        <section class="membership-form">
+            <h2>Membership Application Form</h2>
+            <form action="thankyou.html" method="get">
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div>
+                    <label for="title">Title/Position:</label>
+                    <input type="text" id="title" name="title" required pattern="[A-Za-z\s\-]{7,}">
+                    <span>Must be at least 7 characters and contain only letters, spaces, and hyphens.</span>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@example.com" required>
+                </div>
+                <div>
+                    <label for="phone">Mobile Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div>
+                    <label for="organization">Organization Name:</label>
+                    <input type="text" id="organization" name="organization" required>
+                </div>
+                <div>
+                    <label for="membershipLevel">Membership Level:</label>
+                    <select id="membershipLevel" name="membershipLevel" required>
+                        <option value="NP">NP Membership</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        <option value="Gold">Gold Membership</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="description">Organization Description:</label>
+                    <textarea id="description" name="description"></textarea>
+                </div>
+                <input type="hidden" id="formLoadedAt" name="formLoadedAt">
+                <div>
+                    <button type="submit">Submit Application</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-footer">
+            <div>
+                <img src="images/bos_logo-removebg-preview.png" alt="BOS Logo">
+            </div>
+            <div>
+                <p>Brotherhood of Steel Chamber of Commerce</p>
+                <p>Hidden Valley</p>
+                <p>New Vegas, NV 83451</p>
+                <p><a href="mailto:info@boschamber.org">info@boschamber.org</a></p>
+            </div>
+        </div>
+        <div class="base-footer">
+            <p>&copy;<span id="currentYear"></span> Andrew Morris</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year and last modified date
+        let currentDate = new Date();
+        document.getElementById('currentYear').innerText = currentDate.getFullYear();
+        document.getElementById('lastModified').innerText = document.lastModified;
+
+        // Set formLoadedAt value on form submission
+        document.querySelector('form').addEventListener('submit', function(event) {
+            document.getElementById('formLoadedAt').value = Date.now();
+        });
+    </script>
+</body>
+</html>

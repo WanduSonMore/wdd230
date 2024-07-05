@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css" media="screen and (max-width: 1023px)">
     <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
 </head>
 <body>
     <header>
@@ -22,30 +23,15 @@
                 <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
-        <!-- Image Banner Section -->
-        <section class="image-banner">
-            <div class="banner-overlay">
-                <h2>Join the Brotherhood!</h2>
-            </div>
-            <img src="images/bos_banner.jpg" alt="Banner Image">
-        </section>
     </header>
 
-    <main>
-        <section id="home">
-            <h2>Welcome to Our Community</h2>
-            <p>Discover what our community has to offer, including local businesses, events, and more.</p>
-            <div class="spotlights">
-                <section>
-                    <h3>Weather</h3>
-                    <p>Stay updated with the latest weather information.</p>
-                </section>
-                <section>
-                    <h3>Member Spotlight</h3>
-                    <p>Learn about local businesses in our area.</p>
-                </section>
-            </div>
-        </section>
+    <main class="directory-main">
+        <div id="directory-selector">
+            <button id="directory-grid" class="active">GRID</button>
+            <button id="directory-list">LIST</button>
+        </div>
+        <div id="directory-data" class="directory-cards">
+        </div>
     </main>
 
     <footer>
