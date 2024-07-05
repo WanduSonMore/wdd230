@@ -34,48 +34,22 @@
         <section class="membership-form">
             <h2>Membership Application Form</h2>
             <form action="thankyou.html" method="get">
-                <div>
-                    <label for="firstName">First Name:</label>
-                    <input type="text" id="firstName" name="firstName" required>
-                </div>
-                <div>
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName" name="lastName" required>
-                </div>
-                <div>
-                    <label for="title">Title/Position:</label>
-                    <input type="text" id="title" name="title" required pattern="[A-Za-z\s\-]{7,}">
-                    <span>Must be at least 7 characters and contain only letters, spaces, and hyphens.</span>
-                </div>
-                <div>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="example@example.com" required>
-                </div>
-                <div>
-                    <label for="phone">Mobile Phone:</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-                <div>
-                    <label for="organization">Organization Name:</label>
-                    <input type="text" id="organization" name="organization" required>
-                </div>
-                <div>
-                    <label for="membershipLevel">Membership Level:</label>
-                    <select id="membershipLevel" name="membershipLevel" required>
-                        <option value="NP">NP Membership</option>
-                        <option value="Bronze">Bronze Membership</option>
-                        <option value="Silver">Silver Membership</option>
-                        <option value="Gold">Gold Membership</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="description">Organization Description:</label>
-                    <textarea id="description" name="description"></textarea>
-                </div>
-                <input type="hidden" id="formLoadedAt" name="formLoadedAt">
-                <div>
-                    <button type="submit">Submit Application</button>
-                </div>
+                
+                <label class="myinput">First Name*<input id="fname" type="text" name="fname" required></label>
+                <label class="myinput">Last Name*<input type="text" name="lname" id="lname" required></label>
+                <label class="myinput">Title<input type="text" name="title" id="title" pattern="[A-Za-z\s\-]{7,}"></label>
+                <label class="myinput">Email*<input type="email" name="email" required placeholder="example@mymail.com"></label>
+                <label class="myinput">Cell Phone*<input type="tel" name="cellphone" required></label>
+                <label class="myinput">Business Name*<input type="text" name="bizname" required></label>
+                <h3>Membership Level</h3>
+                <label class="myradio"><input type="radio" name="level" value="nonprofit">Non-Profit</label>
+                <label class="myradio"><input type="radio" name="level" value="bronze">Bronze</label>
+                <label class="myradio"><input type="radio" name="level" value="silver">Silver</label>
+                <label class="myradio"><input type="radio" name="level" value="gold">Gold</label>
+                <label class="myinput">Business Description<textarea name="description" cols="40"
+                rows="5"></textarea></label>
+                <input id="join-time" type="hidden" name="join-time" value="">
+                <button class="mysubmit">Join the Chamber!</button>
             </form>
         </section>
     </main>
