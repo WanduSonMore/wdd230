@@ -384,3 +384,17 @@ figcaption {
     color: #32CD32;
     margin-left: 1rem;
 }
+
+#menu-button{    
+    background-color: inherit;  
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+#menu-button::before{
+    content: "≡";
+}
+
+#menu-button.open::before{
+    content: "X";
+}
