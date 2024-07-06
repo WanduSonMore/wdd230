@@ -39,7 +39,7 @@ const displayMembers = (view) => {
         if(view === 'grid') {
           card.innerHTML = `
           <div class="directory-item">
-            <img src="${business.imageURL}">
+            <img id="directory-image" src="${business.imageURL}">
             <div class="directory-item-details">
               <p>${business.name}</p>
               <p>${business.streetAddress}</p>
@@ -50,7 +50,7 @@ const displayMembers = (view) => {
           `;
         } else {
           card.innerHTML = `
-          <div class="directory-item list-view">
+          <div class="list-view">
             <div class="directory-item-details side-by-side">
               <p>${business.name}</p>
               <p>${business.streetAddress}</p>

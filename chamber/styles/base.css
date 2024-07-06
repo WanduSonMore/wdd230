@@ -309,8 +309,16 @@ figure {
     justify-content: center;
 }
 
-.directory-list {
+.directory-cards div img{
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.directory-item-details {
+    margin-top: 0.5rem;
+    text-align: center;
 }
 
 .directory-cards section, .directory-list section {
@@ -350,6 +358,7 @@ figure {
 
 .myinput textarea {
     display: block;
+    width: 80%;
 }
 
 .mysubmit {
@@ -359,8 +368,33 @@ figure {
     background: #666;
 }
 
+
 .join-main section{
     border: #ddd 2px solid;
+    background-color: #666;
     padding: 1rem;
     margin: 2rem;
+}
+
+figcaption {
+    color: #ddd;
+}
+
+#rank ul li{
+    color: #32CD32;
+    margin-left: 1rem;
+}
+
+#menu-button{    
+    background-color: inherit;  
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+#menu-button::before{
+    content: "≡";
+}
+
+#menu-button.open::before{
+    content: "X";
 }

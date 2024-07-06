@@ -1,9 +1,9 @@
 /* Larger Screens Styles */
 
 /* Reset and Typography */
-@media screen and (min-width:800px){
+@media screen and (max-width:800px){
 * {
-    margin: 0;
+    margin: 1rem;
     padding: 0;
     box-sizing: border-box;
 }
@@ -132,5 +132,10 @@ footer {
 .join-main {
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.directory-cards .list-view div{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 }

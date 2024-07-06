@@ -4,29 +4,36 @@
         "name": "Hidden Valley Bunker",
         "streetAddress": "Hidden Valley",
         "cityStateZip": "New Vegas, NV 83451",
-        "imageURL": "images/hidden_valley_bunker.jpg",
+        "imageURL": "images/hidden_valley.webp",
         "websiteURL": "https://example.com/hidden_valley_bunker"
       },
       {
         "name": "Scorpion Gulch",
         "streetAddress": "Scorpion Gulch",
         "cityStateZip": "New Vegas, NV 83451",
-        "imageURL": "images/scorpion_gulch.jpg",
+        "imageURL": "images/scorpion_gulch.webp",
         "websiteURL": "https://example.com/scorpion_gulch"
       },
       {
         "name": "Sloan",
         "streetAddress": "Sloan",
         "cityStateZip": "New Vegas, NV 83451",
-        "imageURL": "images/sloan.jpg",
+        "imageURL": "images/sloan.webp",
         "websiteURL": "https://example.com/sloan"
       },
       {
         "name": "Douglas the Mole Rat",
         "streetAddress": "Sloan",
         "cityStateZip": "New Vegas, NV 83451",
-        "imageURL": "images/douglas_the_mole_rat.jpg",
+        "imageURL": "images/douglas.webp",
         "websiteURL": "https://example.com/douglas_the_mole_rat"
+      },
+      {
+        "name": "Prospector Saloon",
+        "streetAddress": "Goodsprings",
+        "cityStateZip": "Mojave Wasteland, NV",
+        "imageURL": "images/prospectorSaloon.webp",
+        "websiteURL": "https://example.com/prospector-saloon"
       }
     ]
   }
