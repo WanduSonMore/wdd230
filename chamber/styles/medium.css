@@ -1,5 +1,5 @@
 /* medium.css */
-@media screen and (min-width:400px){
+@media screen and (max-width:400px){
 /* Header Content */
 .header-content {
     flex-direction: column; /* Stack items vertically */

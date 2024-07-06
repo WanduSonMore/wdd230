@@ -1,7 +1,7 @@
 /* Larger Screens Styles */
 
 /* Reset and Typography */
-@media screen and (max-width:800px){
+@media screen and (min-width:800px){
 * {
     margin: 1rem;
     padding: 0;
