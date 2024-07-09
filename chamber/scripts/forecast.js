@@ -2,7 +2,7 @@ const WEATHER_URL2 = 'https://api.openweathermap.org/data/2.5/forecast?lat=36.12
 
 
 function showCurrentTimeForcast(forecast){
-    const weatherElt = document.querySelector("body main .weather .weather-card")
+    const weatherElt = document.querySelector(".forecast")
 
     const timenow = forecast[0].dt_txt.slice(11, 19)
 
@@ -10,14 +10,12 @@ function showCurrentTimeForcast(forecast){
 
     // Output 
     for (let i=1; i<=3; i++){
-        let newsection = document.createElement("forecast")
+        let newsection = document.createElement("div")
         let mydate = temps[i].dt_txt.slice(0, 10)
         newsection.innerHTML = `
-        <div>
         <img src="https://openweathermap.org/img/wn/${temps[i].weather[0].icon}@2x.png"}" alt="Weather Image">
         <h2>${mydate}</h2>
-        <p>${temps[i].main.temp}&deg;F @ ${timenow}</p>
-        </div>`
+        <p>${temps[i].main.temp}&deg;F @ ${timenow}</p>`
         weatherElt.append(newsection)
 
     }
