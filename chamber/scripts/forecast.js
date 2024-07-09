@@ -14,7 +14,7 @@ function showCurrentTimeForcast(forecast){
         let mydate = temps[i].dt_txt.slice(0, 10)
         newsection.innerHTML = `
         <div>
-        <img src="https://openweathermap.org/img/wn/${temps[i].weather[0].icon}+"@2x.png"}" alt="Weather Image">
+        <img src="https://openweathermap.org/img/wn/${temps[i].weather[0].icon}@2x.png"}" alt="Weather Image">
         <h2>${mydate}</h2>
         <p>${temps[i].main.temp}&deg;F @ ${timenow}</p>
         </div>`

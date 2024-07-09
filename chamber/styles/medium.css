@@ -43,4 +43,5 @@ nav ul li a {
     flex: 1 1 100%; /* Ensure each article takes full width on medium screens */
     margin-bottom: 1em; /* Add margin between articles */
 }
+
 }
