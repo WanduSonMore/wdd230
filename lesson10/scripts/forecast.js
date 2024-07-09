@@ -1,8 +1,8 @@
-const WEATHER_URL = 'https://api.openweathermap.org/data/2.5/forecast?lat=43.830043&lon=-111.8293824&appid=fbecddd063591d29cf733a7e9802066e&units=imperial'
+const WEATHER_URL = 'https://api.openweathermap.org/data/2.5/forecast?lat=36.1245484&lon=-115.5046478&appid=fbecddd063591d29cf733a7e9802066e&units=imperial'
 
 
 function showCurrentTimeForcast(forecast){
-    const weatherElt = document.querySelector("body section")
+    const weatherElt = document.querySelector("body ")
 
     const timenow = forecast[0].dt_txt.slice(11, 19)
 

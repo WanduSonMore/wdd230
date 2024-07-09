@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-    color: #006400; /* Set h2 color to darker green */
+    color: #32CD32; /* Set h2 color to darker green */
 }
 
 h3 {
@@ -137,5 +137,10 @@ footer {
 .directory-cards .list-view div{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+}
+.forecast {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between items */
 }
 }

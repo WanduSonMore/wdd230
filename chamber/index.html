@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css" media="screen and (max-width: 1023px)">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
 </head>
 <body>
     <header>
@@ -55,13 +57,16 @@
             <h2>Weather</h2>
             <div class="weather-card">
                 <img id="weather-icon" src="path/to/weather_image.webp" alt="Weather Image">
+                
                 <p>Current weather conditions.</p>
                 <p><span id="currentConditions"></span></p>
                 <p>Temperature: <span id="temperature"></span></p>
                 <p>Humidity: <span id="humidity"></span></p>
                 <p>Wind: <span id="wind-speed">10</span> mph</p>
-                <p>Wind Chill: <span id="wind-chill">N/A</span></p>
+                <div class="forecast">
+                </div>
             </div>
+            
         </section>
         <section class="spotlights">
             <h2>Spotlights</h2>
