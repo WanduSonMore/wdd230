@@ -16,9 +16,6 @@
     <link rel="icon" href="favicon.ico">
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
-    <script src="scripts/visits.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-    <script src="scripts/forecast.js" defer></script>
     <script src="scripts/directory.js" defer></script>
 </head>
 <body>
@@ -33,9 +30,6 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="catalog.html">Catalog Selection</a></li>
-                    <li><a href="">Site Plan</a></li>
-                    <li><a href="">BYU-Idaho</a></li>
-                    <li><a href="">Scripture</a></li>
                 </ul>
             </nav>
         </header>
@@ -46,6 +40,17 @@
                 <button id="directory-list">LIST</button>
             </div>
             <div id="directory-data" class="directory-cards">
+                <!-- Directory items will be loaded here -->
+            </div>
+            
+            <!-- Item basket and total price -->
+            <div id="basket-container">
+                <h2>Item Basket</h2>
+                <ul id="list">
+                    <!-- Items will be added here -->
+                </ul>
+                <p id="total-price">Total Price: $0.00</p>
+                <button id="purchase-button">Purchase</button>
             </div>
         </main>
 

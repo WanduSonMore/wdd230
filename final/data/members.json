@@ -1,68 +1,54 @@
 {
-    "members": [
+  "members": [
       {
-        "name": "Hidden Valley Bunker",
-        "streetAddress": "Hidden Valley",
-        "cityStateZip": "New Vegas, NV 83451",
-        "imageURL": "images/hidden_valley.webp",
-        "websiteURL": "https://fallout.fandom.com/wiki/Hidden_Valley_bunker"
+          "name": "Lazer Pistol",
+          "price": 198,  
+          "imageURL": "images/lazer.webp"
       },
       {
-        "name": "Scorpion Gulch",
-        "streetAddress": "Scorpion Gulch",
-        "cityStateZip": "New Vegas, NV 83451",
-        "imageURL": "images/scorpion_gulch.webp",
-        "websiteURL": "https://fallout.fandom.com/wiki/Scorpion_gulch"
+          "name": "9mm Pistol",
+          "price": 127,  
+          "imageURL": "images/9mm_Pistol.webp"
       },
       {
-        "name": "Sloan",
-        "streetAddress": "Sloan",
-        "cityStateZip": "New Vegas, NV 83451",
-        "imageURL": "images/sloan.webp",
-        "websiteURL": "https://fallout.fandom.com/wiki/Sloan"
+          "name": "Crowbar",
+          "price": 258,  
+          "imageURL": "images/crowbar.webp"
       },
       {
-        "name": "Douglas the Mole Rat",
-        "streetAddress": "Sloan",
-        "cityStateZip": "New Vegas, NV 83451",
-        "imageURL": "images/douglas.webp",
-        "websiteURL": "https://fallout.fandom.com/wiki/Mole_rat_(Fallout_3)"
+          "name": "Grenade Launcher",
+          "price": 479,  
+          "imageURL": "images/grenade_launcher.webp"
       },
       {
-        "name": "Prospector Saloon",
-        "streetAddress": "Goodsprings",
-        "cityStateZip": "Mojave Wasteland, NV",
-        "imageURL": "images/prospectorSaloon.webp",
-        "websiteURL": "https://fallout.fandom.com/wiki/Prospector_Saloon"
+          "name": "Lazer Rifle",
+          "price": 305,  
+          "imageURL": "images/lazer_rifle.webp"
       },
       {
-        "name": "Black Mountain",
-        "streetAddress": "Black Mountain",
-        "cityStateZip": "New Vegas, NV 83451",
-        "imageURL": "images/black_mountain.webp",
-        "websiteURL": "https://fallout.fandom.com/wiki/Black_Mountain"
+          "name": "Lucky",
+          "price": 367,  
+          "imageURL": "images/lucky.webp"
       },
       {
-        "name": "NCR Correctional Facility",
-        "streetAddress": "NCR Correctional Facility",
-        "cityStateZip": "New Vegas, NV 83451",
-        "imageURL": "images/ncr_correctional_facility.webp",
-        "websiteURL": "https://fallout.fandom.com/wiki/NCR_Correctional_Facility"
+          "name": "Maria",
+          "price": 420,  
+          "imageURL": "images/maria.webp"
       },
       {
-        "name": "Yangtse Memorial",
-        "streetAddress": "Yangtse Memorial",
-        "cityStateZip": "New Vegas, NV 83451",
-        "imageURL": "images/yangtse_memorial.webp",
-        "websiteURL": "https://fallout.fandom.com/wiki/Yangtze_Memorial"
+          "name": "Machine Gun",
+          "price": 540,  
+          "imageURL": "images/machine_gun.webp"
       },
       {
-        "name": "Quarry Junction",
-        "streetAddress": "Quarry Junction",
-        "cityStateZip": "New Vegas, NV 83451",
-        "imageURL": "images/quarry_junction.webp",
-        "websiteURL": "https://fallout.fandom.com/wiki/Quarry_Junction"
+          "name": "Switchblade",
+          "price": 189,  
+          "imageURL": "images/switchblade.webp"
+      },
+      {
+          "name": "Alien Gun",
+          "price": 632,  
+          "imageURL": "images/alien_gun.webp"
       }
-    ]
-  }
-  
+  ]
+}

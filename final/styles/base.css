@@ -135,3 +135,17 @@ footer {
 .weather-card {
     text-align: center; 
 }
+
+.directory-main {
+    text-align: center;
+}
+
+#directory-data {
+    padding: 50px;
+}
+
+.directory-item {
+    padding: 20px;
+    border: 1px black solid;
+    height: 100%;
+}
