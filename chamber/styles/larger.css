@@ -49,6 +49,7 @@ a:hover {
 /* Navigation */
 nav ul li a {
     color: #32CD32; /* Set navigation link color to lime green */
+    
 }
 
 /* Paragraphs */
@@ -94,6 +95,9 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 nav ul li {

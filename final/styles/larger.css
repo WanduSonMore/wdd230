@@ -1,0 +1,38 @@
+@media screen and (min-width: 800px) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul.open {
+        flex-direction: row;
+    }
+
+    #cards {
+        max-width: 100%;
+        display: grid; /* Use grid layout for cards */
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust card width */
+        gap: 1rem; /* Space between cards */
+    }
+
+    .card {
+        max-width: 100%; /* Ensure the card uses the full width available */
+        border: 1px var(--header-color) solid;
+        margin: 1rem;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    .map {
+        grid-column: 1 / 3;
+    }
+
+    .forecast {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+}

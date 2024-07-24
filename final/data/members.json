@@ -1,0 +1,68 @@
+{
+    "members": [
+      {
+        "name": "Hidden Valley Bunker",
+        "streetAddress": "Hidden Valley",
+        "cityStateZip": "New Vegas, NV 83451",
+        "imageURL": "images/hidden_valley.webp",
+        "websiteURL": "https://fallout.fandom.com/wiki/Hidden_Valley_bunker"
+      },
+      {
+        "name": "Scorpion Gulch",
+        "streetAddress": "Scorpion Gulch",
+        "cityStateZip": "New Vegas, NV 83451",
+        "imageURL": "images/scorpion_gulch.webp",
+        "websiteURL": "https://fallout.fandom.com/wiki/Scorpion_gulch"
+      },
+      {
+        "name": "Sloan",
+        "streetAddress": "Sloan",
+        "cityStateZip": "New Vegas, NV 83451",
+        "imageURL": "images/sloan.webp",
+        "websiteURL": "https://fallout.fandom.com/wiki/Sloan"
+      },
+      {
+        "name": "Douglas the Mole Rat",
+        "streetAddress": "Sloan",
+        "cityStateZip": "New Vegas, NV 83451",
+        "imageURL": "images/douglas.webp",
+        "websiteURL": "https://fallout.fandom.com/wiki/Mole_rat_(Fallout_3)"
+      },
+      {
+        "name": "Prospector Saloon",
+        "streetAddress": "Goodsprings",
+        "cityStateZip": "Mojave Wasteland, NV",
+        "imageURL": "images/prospectorSaloon.webp",
+        "websiteURL": "https://fallout.fandom.com/wiki/Prospector_Saloon"
+      },
+      {
+        "name": "Black Mountain",
+        "streetAddress": "Black Mountain",
+        "cityStateZip": "New Vegas, NV 83451",
+        "imageURL": "images/black_mountain.webp",
+        "websiteURL": "https://fallout.fandom.com/wiki/Black_Mountain"
+      },
+      {
+        "name": "NCR Correctional Facility",
+        "streetAddress": "NCR Correctional Facility",
+        "cityStateZip": "New Vegas, NV 83451",
+        "imageURL": "images/ncr_correctional_facility.webp",
+        "websiteURL": "https://fallout.fandom.com/wiki/NCR_Correctional_Facility"
+      },
+      {
+        "name": "Yangtse Memorial",
+        "streetAddress": "Yangtse Memorial",
+        "cityStateZip": "New Vegas, NV 83451",
+        "imageURL": "images/yangtse_memorial.webp",
+        "websiteURL": "https://fallout.fandom.com/wiki/Yangtze_Memorial"
+      },
+      {
+        "name": "Quarry Junction",
+        "streetAddress": "Quarry Junction",
+        "cityStateZip": "New Vegas, NV 83451",
+        "imageURL": "images/quarry_junction.webp",
+        "websiteURL": "https://fallout.fandom.com/wiki/Quarry_Junction"
+      }
+    ]
+  }
+  

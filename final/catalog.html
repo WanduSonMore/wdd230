@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for WDD 230 Spring semester">
+    <meta name="author" content="Andrew Morris"> 
+    <title>Andrew Morris - WDD 230 - Web Frontend Development</title>
+    <meta description="" content="WDD 230 - Web Frontend Development - Andrew Morris - course assignment portal">
+    <meta author="Andrew Morris">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/visits.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div id="topheader">
+                <img src="images/myphoto.jpg" alt="Andrew Morris headshot">
+                <h1>Gun Runners</h1>
+            </div> 
+            <button id="menu-button"></button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="catalog.html">Catalog Selection</a></li>
+                    <li><a href="">Site Plan</a></li>
+                    <li><a href="">BYU-Idaho</a></li>
+                    <li><a href="">Scripture</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="directory-main">
+            <div id="directory-selector">
+                <button id="directory-grid" class="active">GRID</button>
+                <button id="directory-list">LIST</button>
+            </div>
+            <div id="directory-data" class="directory-cards">
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy;<span id="currentYear"></span> - Andrew Sean Morris - Colorado, USA</p>
+            <p>Gun Runners Arsenal</p>
+            <p>Freeside</p>
+            <p>New Vegas, NV 83453</p>
+            <p><a href="mailto:info@gunrunnersnv.org">info@gunrunnersnv.org</a></p>
+            <p id="lastModified"></p>
+        </footer>
+    </div>
+</body>
+</html>
