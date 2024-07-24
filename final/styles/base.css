@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 :root {
-    --text-color: #331E36;
-    --body-color: #ECFEE8;
-    --card-color: #C2EFEB;
-    --header-color: #6EA4BF;
-    --nav-color: #41337A;
+    --text-color: #2D2D2D; /* Darker text color for better readability */
+    --body-color: #F4F4F4; /* Lighter background color */
+    --card-color: #E0E0E0; /* Light gray for card backgrounds */
+    --header-color: #4B4B4B; /* Dark gray for headers */
+    --nav-color: #333333; /* Even darker gray for navigation */
+    --button-color: #FF5733; /* Vibrant orange for buttons */
+    --button-hover-color: #C70039; /* Darker orange for button hover */
 }
 
 body {
@@ -94,6 +96,10 @@ footer {
     color: black;
 }
 
+footer p {
+    color: #ECFEE8;
+}
+
 #content main h2 {
     text-align: center;
 }
@@ -148,4 +154,131 @@ footer {
     padding: 20px;
     border: 1px black solid;
     height: 100%;
+}
+
+/* Base CSS */
+#hero {
+    position: relative;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+.hero-content {
+    position: absolute;
+    text-align: center;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the main join section */
+.join-main {
+    padding: 2rem;
+    background-color: var(--card-color);
+}
+
+/* Styles for the membership application form */
+.membership-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.membership-form h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
+.membership-form label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.membership-form input[type="text"],
+.membership-form input[type="email"],
+.membership-form input[type="tel"],
+.membership-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.membership-form input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+.membership-form .mysubmit {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.membership-form .mysubmit:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for membership levels section */
+#rank {
+    padding: 2rem 1.5rem;
+    background-color: var(--card-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#rank h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+#rank h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: var(--text-color);
+}
+
+#rank ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+#rank ul li {
+    margin-bottom: 0.5rem;
+}
+
+#basket-container {
+    padding-bottom: 50px;
 }
